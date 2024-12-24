@@ -1,0 +1,37 @@
+/* header.component.css */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+   display:none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer nav ul li {
+  margin: 0 15px;
+}
+
+.footer nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer nav ul li a:hover {
+  text-decoration: underline;
+}
